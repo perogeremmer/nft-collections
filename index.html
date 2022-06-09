@@ -14,100 +14,217 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-12 text-center nft-title">
-            <h1>Top Collection NFTS</h1>
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">NFT Collection</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="#About">About</a>
+            </li>
+            <li class="menu-right"><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="text-center slider-wrapper">
+                <img class="slider" src="images/1.png" style="width:100%">
+                <img class="slider" src="images/2.png" style="width:100%">
+                <img class="slider" src="images/3.png" style="width:100%">
+            </div>
         </div>
-        <div class="col-12 text-center">
-            <h3>Grab now to get our best collections</h3>
-        </div>
-        <div class="col-12 nft-title">
-            <div class="row">
-                <div class="col-6 card-padding">
-                    <div class="card-newsletter">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
+        <div class="row">
+            <div class="col-12 text-center nft-title">
+                <h1>Top Collection NFTS</h1>
+            </div>
+            <div class="col-12 text-center">
+                <h3>Grab now to get our best collections</h3>
+            </div>
+            <div class="col-12 nft-title">
+                <div class="row">
+                    <div class="col-6 card-padding">
+                        <div class="card-newsletter">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
+                                </div>
+                                <div class="col-6">
+                                    <div class="row text-left">
+                                        <div class="col-12">
+                                            <h1>The Meongs</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row text-left">
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bx-user'></i> Collections
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>600+</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><i class='bx bx-dollar-circle'></i> Price</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>0.55558 eth</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bxs-heart-circle'></i> Artist
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Kucing Oyen</p>
+                                        </div>
+                                    </div>
+                                    <div class="row text-left">
+                                        <div class="col-12 padding-top">
+                                            <a href="#" class="btn-buy">Grab Now</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <div class="row text-left">
-                                    <div class="col-12">
-                                        <h1>The Meongs</h1>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-6 card-padding">
+                        <div class="card-newsletter">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
                                 </div>
-                                <div class="row text-left">
-                                    <div class="col-6">
-                                        <p>Collections</p>
+                                <div class="col-6">
+                                    <div class="row text-left">
+                                        <div class="col-12">
+                                            <h1>The Meongs</h1>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        <p>600+</p>
+                                    <div class="row text-left">
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bx-user'></i> Collections
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>600+</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><i class='bx bx-dollar-circle'></i> Price</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>0.55558 eth</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bxs-heart-circle'></i> Artist
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Kucing Oyen</p>
+                                        </div>
                                     </div>
-
-                                    <div class="col-6">
-                                        <p>Price</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>0.55558 eth</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p>Artist</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>Kucing Oyen</p>
-                                    </div>
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-12 padding-top">
-                                        <a href="#" class="btn-buy">Grab Now</a>
+                                    <div class="row text-left">
+                                        <div class="col-12 padding-top">
+                                            <a href="#" class="btn-buy">Grab Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 card-padding">
-                    <div class="card-newsletter">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
+                <div class="row">
+                    <div class="col-6 card-padding">
+                        <div class="card-newsletter">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
+                                </div>
+                                <div class="col-6">
+                                    <div class="row text-left">
+                                        <div class="col-12">
+                                            <h1>The Meongs</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row text-left">
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bx-user'></i> Collections
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>600+</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><i class='bx bx-dollar-circle'></i> Price</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>0.55558 eth</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bxs-heart-circle'></i> Artist
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Kucing Oyen</p>
+                                        </div>
+                                    </div>
+                                    <div class="row text-left">
+                                        <div class="col-12 padding-top">
+                                            <a href="#" class="btn-buy">Grab Now</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <div class="row text-left">
-                                    <div class="col-12">
-                                        <h1>The Meongs</h1>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-6 card-padding">
+                        <div class="card-newsletter">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
                                 </div>
-                                <div class="row text-left">
-                                    <div class="col-6">
-                                        <p>Collections</p>
+                                <div class="col-6">
+                                    <div class="row text-left">
+                                        <div class="col-12">
+                                            <h1>The Meongs</h1>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        <p>600+</p>
+                                    <div class="row text-left">
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bx-user'></i> Collections
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>600+</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><i class='bx bx-dollar-circle'></i> Price</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>0.55558 eth</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>
+                                                <i class='bx bxs-heart-circle'></i> Artist
+                                            </p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Kucing Oyen</p>
+                                        </div>
                                     </div>
-
-                                    <div class="col-6">
-                                        <p>Price</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>0.55558 eth</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p>Artist</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>Kucing Oyen</p>
-                                    </div>
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-12 padding-top">
-                                        <a href="#" class="btn-buy">Grab Now</a>
+                                    <div class="row text-left">
+                                        <div class="col-12 padding-top">
+                                            <a href="#" class="btn-buy">Grab Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,97 +232,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 card-padding">
-                    <div class="card-newsletter">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
-                            </div>
-                            <div class="col-6">
-                                <div class="row text-left">
-                                    <div class="col-12">
-                                        <h1>The Meongs</h1>
-                                    </div>
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-6">
-                                        <p>Collections</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p>600+</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>Price</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>0.55558 eth</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p>Artist</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>Kucing Oyen</p>
-                                    </div>
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-12 padding-top">
-                                        <a href="#" class="btn-buy">Grab Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 card-padding">
-                    <div class="card-newsletter">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class="card-image" src="images/cat-icon.png" alt="Cat Icon">
-                            </div>
-                            <div class="col-6">
-                                <div class="row text-left">
-                                    <div class="col-12">
-                                        <h1>The Meongs</h1>
-                                    </div>
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-6">
-                                        <p>Collections</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p>600+</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>Price</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>0.55558 eth</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <p>Artist</p>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <p>Kucing Oyen</p>
-                                    </div>
-                                </div>
-                                <div class="row text-left">
-                                    <div class="col-12 padding-top">
-                                        <a href="#" class="btn-buy">Grab Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; NFT Collection 2022.</p>
     </div>
 
     <script src="js/main.js"></script>

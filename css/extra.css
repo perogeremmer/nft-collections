@@ -96,7 +96,7 @@
     .btn-buy {
         background-color: navy;
         margin-top: 15px;
-        padding: 15px 90px;
+        padding: 15px 85px;
         border-radius: 10px;
         color: white;
         text-decoration: none;
@@ -104,4 +104,57 @@
     
     .padding-top {
         padding-top: 15px;
+    }
+    
+    nav {
+        background-color: darkslateblue;
+        width: 100%;
+        float: left;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: cornflowerblue;
+    }
+    
+    li.menu-right {
+        float: right;
+    }
+    
+    .slider-wrapper {
+        margin: auto;
+        padding-top: 100px;
+    }
+    
+    .slider {
+        border-radius: 10px;
+    }
+    
+    .footer {
+        position: static;
+        padding: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: darkslateblue;
+        color: white;
+        text-align: center;
     }

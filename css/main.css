@@ -2,11 +2,19 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    background-color: white;
+}
+
 [class*="col-"] {
     float: left;
 }
 
-body {
+.container {
     max-width: 80rem;
     margin: auto;
     font-family: 'Lato', sans-serif;
