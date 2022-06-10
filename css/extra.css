@@ -141,16 +141,17 @@
     
     .slider-wrapper {
         margin: auto;
-        padding-top: 100px;
+        padding-top: 70px;
     }
     
     .slider {
         border-radius: 10px;
+        width: 100%;
     }
     
     .footer {
         position: static;
-        padding: 10px;
+        padding: 12px;
         left: 0;
         bottom: 0;
         width: 100%;
